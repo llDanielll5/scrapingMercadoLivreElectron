@@ -1,0 +1,29 @@
+{
+  "name": "scrapingmercadolivreelectron",
+  "version": "1.0.0",
+  "description": "Meu teste de scraping com resultados do mercado livre",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --exec electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llDanielll5/scrapingMercadoLivreElectron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llDanielll5/scrapingMercadoLivreElectron/issues"
+  },
+  "homepage": "https://github.com/llDanielll5/scrapingMercadoLivreElectron#readme",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "bootstrap": "^5.2.3",
+    "electron": "^22.0.2",
+    "nodemon": "^2.0.20",
+    "objects-to-csv": "^1.3.6"
+  }
+}
